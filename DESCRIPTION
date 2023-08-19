@@ -1,0 +1,27 @@
+Package: AHPlantReactomeDbs
+Type: Package
+Title: Mapping tibble tables link the source database identifier to the pathway:
+Version: 0.99.0
+Encoding: UTF-8
+Authors@R:
+    person(given = "Kozo",
+           family = "Nishida",
+           role = c("aut", "cre"),
+           email = "kozo.nishida@gmail.com",
+           comment = c(ORCID = "0000-0001-8501-7319"))
+Depends: R (>= 4.3.0)
+Imports: AnnotationHub (>= 3.8.0)
+Suggests: BiocStyle,
+    magrittr,
+    dplyr,
+    tibble,
+    knitr,
+    rmarkdown
+Description: The package provides a comprehensive mapping table of 
+    UniProt, ChEBI, ENSEMBL, NCBI, miRBase to Plant Reactome pathways.
+    The mappings can be used for Gene/Protein/Metabolite Set Enrichment Analysis.
+VignetteBuilder: knitr
+License: Artistic-2.0
+URL: https://github.com/kozo2/AHPlantReactomeDbs
+LazyData: true
+biocViews: AnnotationHub, CustomDBSchema, FunctionalAnnotation
